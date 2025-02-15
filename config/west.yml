@@ -13,10 +13,5 @@ manifest:
       revision: main
       import: app/west.yml
 
-    # Your own zmk-config repository
-    - name: zmk-config
-      remote: rileyhora
-      revision: main
-
   self:
     path: config
